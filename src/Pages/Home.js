@@ -1,12 +1,9 @@
-import NavBar from "../components/NavBar";
-import {Outlet} from "react-router-dom";
 
 function Home(){
 
     return(
         <div>
-            <NavBar/>
-            <Outlet/>{/*Contenido del hijo o de la ruta hija */}          
+            <h1>Pagina Home</h1>
         </div>
     )
 }

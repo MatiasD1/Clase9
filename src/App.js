@@ -8,13 +8,14 @@ import Home from "./Pages/Home";
 import Galeria from "./Pages/Galeria";
 import Productos from "./Pages/Productos";
 import Error from "./Pages/Error";
+import Layout from "./Pages/Layout";
 
 function App() {
   return (
     <BrowserRouter>
 
       <Routes>
-        <Route path="/" element={<Home/>}/>{/*Path: A dónde quiere ir el usuario. Element: Con qué le respondo*/}
+        <Route path="/" element={<Layout/>}/>{/*Path: A dónde quiere ir el usuario. Element: Con qué le respondo*/}
         <Route path="galeria" element={<Galeria/>}/>
         <Route path="productos" element={<Productos/>}/>
         <Route path="*" element={<Error/>}/>{/*"*" significa que no matchea con ninguna pagina existente */}

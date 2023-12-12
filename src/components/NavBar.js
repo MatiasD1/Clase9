@@ -4,7 +4,7 @@ function NavBar(){
 
     return (
         <nav>
-            <Link to="/">Home</Link>
+            <Link to="/">Home</Link>{/*to significa a qué ruta voy a enlazar */}
             <Link to="/galeria">Galeria</Link>
             <Link to="/productos">Productos</Link>
         </nav>
